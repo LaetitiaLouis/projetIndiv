@@ -6,7 +6,8 @@ Auteur du projet : Laëtitia LOUIS<br>Date : 19/12/2019
 <div align="justify"> Cette application concerne une liste de véhicules disponibles. Il est possible de consulter cette liste, les caractéristiques de chaque véhicule, d'ajouter des véhicules via un formulaire et de faire une recherche de véhicule par id. </div>
 
 ## <span style="color: #778999">Description du projet </div> Diagramme de fonctionnement ## 
-<img src="Diagramme.jpg">
+![Image_Diagramme](https://github.com/LaetitiaLouis/projetIndiv/blob/master/Diagramme.png)
+
 
 ## <span style="color: #778999"> Présentation des endpoints de l'application ## 
 <h3> <span style="color: #778899">"/nom" : </h3>
@@ -50,7 +51,8 @@ prix: 18900
 
 ## <span style="color: #778899">Image page d'accueil ###
 
-<img src="AccueilAppli.jpg">
+![image_Accueil](https://github.com/LaetitiaLouis/projetIndiv/blob/master/AccueilAppli.png)
+
 
 
 
