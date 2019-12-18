@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>ProjetIndivSpring</title>
+</head>
+
+<body  class="indexHtml">
+	<header>
+		<nav class="navbar navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Nos Véhicules</a>
+			<form class="form-inline">
+				<input class="form-control mr-sm-2" type="search" placeholder="Saisir ID" aria-label="Search"
+					id="submitSearch">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="button" id="butonsearch">Search</button>
+			</form>
+		</nav>
+	</header>
+	<section>
+		<div class="container-fluid">
+			<div class="row">
+				<div id="colonnePrincipale" class="col-lg-12">
+					<div id="nomDuProjet" class="col-4 margeDrop"></div>
+					<div class="row">
+						<div class="col-1"></div>
+						<div id="colonne1" class="col-md-3">
+							<div class="dropdown">
+								<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Véhicules
+								</button>
+								<div id="dropdown-list" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+								</div>
+							</div>
+						</div>
+						<div id="colonne2" class="col-md-4">
+							<div class="card bg-light mb-3" style="max-width: 18rem;">
+								<div class="card-header bg-secondary text-white">Caractéristiques</div>
+								<div class="card-body">
+									<div id="contenuCard">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="colonne3" class="col-md-4 ">
+							<div class="card bg-light mb-3" style="max-width: 18rem;">
+								<form id="formulaire">
+									<div class="card-header bg-secondary text-white">Ajouter un véhicule
+									</div>
+									<div class="col-2"></div>
+									<div id="colonne4" class="col-md-3 ">
+									<br><input id="marque" type="text" placeholder="Saisir la marque"><br>
+									<br><input id="modele" type="text" placeholder="Saisir le modèle"><br>
+									<br><input id="carburant" type="text" placeholder="Saisir le type de carburant"><br>
+									<br><input id="nbrePlaces" type="text" placeholder="Saisir le nombre de places"><br>
+									<br><input id="couleur" type="text" placeholder="Saisir la couleur"><br>
+									<br><input id="prix" type="text" placeholder="Saisir le prix"><br>
+									<br><button class="btn btn-secondary my-2 my-sm-0" type="submit"
+										id="submit">Envoyer</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script src=main.js></script>
+</body>
+
+</html>

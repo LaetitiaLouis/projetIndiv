@@ -1,0 +1,24 @@
+
+body.indexHtml {
+  background-image: url(https://images.caradisiac.com/images/0/1/4/3/180143/S8-plus-belle-voiture-de-l-annee-voici-les-six-modeles-en-competition-613094.jpg);
+  background-size : cover;
+	}
+
+body.error {
+	background-image: url(https://resize-parismatch.lanmedia.fr/r/901,,forcex/img/var/news/storage/images/paris-match/actu/insolite/il-a-construit-la-voiture-de-oui-oui-1223849/voiture-oui-oui-2/20657735-1-fre-FR/Voiture-Oui-Oui-2.jpg);
+  background-size : cover;
+}
+
+  
+ 
+
+.margeDrop{
+	padding-bottom: 1rem;
+	padding-top:1rem;
+	font-size: 2rem;
+}
+
+.card-header{
+	font-size: 1.5rem;
+}
+ 
